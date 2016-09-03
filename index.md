@@ -30,6 +30,15 @@ If you are interested in working with me, before you email me, please read my <a
 </div>
 </p>
 
+<div id="slider">
+	<img src="{{ site.baseurl }}/public/images/BeFunky.jpg" alt="Slide 1" />
+    <img data-src="{{ site.baseurl }}/public/images/BeFunky.jpg" alt="Slide 2" />
+    <img data-src="{{ site.baseurl }}/public/images/BeFunky.jpg" alt="Slide 3" />
+    <script src="{{ site.baseurl }}/public/js/images.js"></script>   
+</div>
+
+
+
 ### Research
 <div class="more">
     <ul class="navigate">
@@ -37,7 +46,7 @@ If you are interested in working with me, before you email me, please read my <a
     </ul>
 </div>
 
-* Hardware acceleratorslerators
+* Hardware accelerators
 * Cache Coherence and Memory Hierarchy
 * Parallelism and Synchronization
 * Energy Efficiency
@@ -128,3 +137,9 @@ If you are interested in working with me, before you email me, please read my <a
 
 {% include graduatedstudents.html param=2 %}
 
+
+<script src="{{ site.baseurl }}/public/js/ideal-image-slider.js"></script>   
+<script>
+    var slider = new IdealImageSlider.Slider('#slider');
+    slider.start();
+</script>

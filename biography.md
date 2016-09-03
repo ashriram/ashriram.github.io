@@ -6,11 +6,13 @@ menu: true
 
 |Graduate Student | Assistant Professor | Associate Professor |
 |:---------------:|:-------------------:|:-------------------:|
-<img src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png" class="img-responsive img-rounded" style="max-width:15">  | <img src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png" class="img-responsive img-rounded" style="max-width:15">| <img src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png" class="img-responsive img-rounded" style="max-width:15">|
+| circa 2004      | circa 2011          | circa 2016          |
+| <img src="{{ site.baseurl }}/public/images/BeFunky.jpg" class="img-responsive img-rounded" width="200">| <img src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png" class="img-responsive img-rounded" width="200"> | <img src="{{ site.baseurl }}/public/images/assoc_professor.jpg" class="img-responsive img-rounded" width="200"> |
 
 <!-- <p><img padding="10px" src="{{ site.baseurl }}/public/apple-touch-icon-precomposed.png" class="img-responsive img-rounded" style="max-width:144px"></p>
  -->
-Arrvindh Shriraman is an Associate Professor of Computer Science at [Simon Fraser University](http://www.sfu.ca).
+
+ Arrvindh is an Associate Professor of Computer Science at [Simon Fraser University](http://www.sfu.ca).
 
 Arrvindh is broadly interested in systems architecture, with specific emphasis on the hardware and interaction of hardware with software. My current area of work include energy management, [accelerator architectures](), and [energy efficient memory hierarchies](). I continue to focus on hardware support for parallelism, synchronization and improving reliability of software. Arrvindh has published on parallel programming, cache coherence protocols, and compiler frameworks for hardware accelerators. He dreams about the use of computers as the brains behind mechanically controlled components in everything from automotive engines to building HVAC systems.
 

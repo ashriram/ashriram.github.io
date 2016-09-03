@@ -14,7 +14,7 @@ permalink:        pretty
 title:            'Arrvindh Shriraman'
 tagline:          'SFU CS'
 description:      'Arrvindh Shriraman'
-baseurl:          ''
+baseurl:          '/Users/ashriram/Documents/Website/website/ashriram.github.io/_site'
 
 #paginate:         5
 #assets:           /public/
@@ -34,3 +34,4 @@ author:
 
 # Custom vars
 version:           1.0.0
+
