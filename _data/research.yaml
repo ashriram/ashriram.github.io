@@ -1,0 +1,20 @@
+- name: "NEEDLE"   
+  picture: "ACC_Icon.png"   
+  description:  "Vendors have closely integrated reconfigurable logic (e.g., FPGAs) into
+multicores that enable the software community to realize accelerators for
+specific program regions.  We propose a methodical LLVM-based compiler
+approach to answer the question, what is acceleratable? and help software
+developers with early stage exploration of acceleration targets. Our
+hypothesis is that an entirely new program execution-based abstraction is
+needed to extract acceleratable regions from programs to help hardware
+synthesis tools. [IISWC'16,HPCA'16]"
+
+- name: "FUSION"    
+  picture: "FUSION_icon.png"   
+  description: "Chip designers
+have shown increasing interest in integrating specialized fixed-function
+coprocessors. With increasing energy cost of wires and caches relative to
+compute operations, it is imperative to optimize data movement to retain the
+energy benefits of accelerators. We have developed a lightweight coherent cache
+hierarchy for accelerators to optimize the data movement. We are studying coherence based memory models for both GPUs 
+  [HPCA'13] and fixed-function coprocessors [ISCA'15]." 

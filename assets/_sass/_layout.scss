@@ -1,0 +1,29 @@
+body { 
+	margin-top: 50px;
+	width:80%; 
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: 2em;
+}
+
+p {
+	margin-bottom: 1em;
+
+}
+
+
+footer { margin: 50px 0; }
+
+@media(max-width:768px) {
+  .container { margin: 0 15px; }
+ }
+
+ @media only screen and (max-width : 480px) {
+     
+     body {
+
+        width:100%;
+
+     }
+
+    }

@@ -1,0 +1,44 @@
+
+.posts li .title {
+  font-size: 1em;
+  padding: 0
+}
+
+.posts li .date {
+  float: right;
+  margin: 0 200px 0 0;
+  font-size: 0.8em;
+  /* text-transform: uppercase; */
+  color: #9a9a9a;
+  line-height: 24px
+}
+
+@media (max-width: 48em) {
+  .posts li .date {
+      display: none
+  }
+}
+
+/*
+ * Related Posts
+ */
+
+.related-posts li .title {
+  font-size: 0.8em;
+  padding: 0
+}
+
+.related-posts li .date {
+  /* float: right; */
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #9a9a9a;
+  line-height: 24px
+}
+
+@media (max-width: 48em) {
+  .related-posts li .date {
+      display: none
+  }
+}
+

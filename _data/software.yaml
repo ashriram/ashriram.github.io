@@ -1,0 +1,26 @@
+- name: "GPGPU-Sim + Wisconsin Ruby"
+  about: "Simulation infrastructure and workloads for Temporal Coherence"
+  repo: "https://github.com/ashriram/"
+  icon: ""
+  paper: "http://www.cs.sfu.ca/~ashriram/papers/pdf/TC_HPCA_2013.pdf"
+
+- name: "FUSION Protocol"
+  about: "Simulation infrastructure for modelling hardware accelerator coherence"
+  repo: "https://github.com/ashriram/FUSION/"
+  icon: ""
+  paper: "http://www.cs.sfu.ca/~ashriram/papers/pdf/FUSION_ISCA_2015.pdf"
+
+
+- name: "Protozoa"
+  about: "Simulation infrastructure for modelling hardware accelerator coherence"
+  repo: "https://github.com/ashriram/Protozoa/"
+  icon: ""
+  paper: "http://www.cs.sfu.ca/~ashriram/papers/pdf/FUSION_ISCA_2015.pdf"
+
+
+- name: "Amoeba Cache"
+  about: "Simple bootstrap simulator for amoeba cache"
+  repo: "https://github.com/ashriram/Amoeba/"
+  icon: ""
+  paper: "http://www.cs.sfu.ca/~ashriram/papers/pdf/FUSION_ISCA_2015.pdf"
+

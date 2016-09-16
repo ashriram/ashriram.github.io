@@ -1,0 +1,23 @@
+---
+layout: linkedpage
+title: News
+menu: true
+relatedpages:
+  - title: "Publications and talks"
+    url: publications
+---
+
+<ul class="posts">
+  {% for post in site.posts %}
+    {% unless post.draft == 'true' %}
+      <li>
+        <a href="{{ site.baseurl }}{{ post.url }}">
+          <div>
+            <span class="title">{{ post.title }}</span>
+            <span class="date">{{ post.date | date_to_string }}</span>
+          </div>
+        </a>
+      </li>
+    {% endunless %}
+  {% endfor %}
+</ul>

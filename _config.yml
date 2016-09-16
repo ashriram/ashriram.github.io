@@ -1,0 +1,42 @@
+exclude: ['README.md']
+timezone: US/Pacific
+
+markdown:         kramdown
+highlighter:      rouge
+
+permalink:        pretty
+
+sass:
+  sass_dir: /assets/_sass
+  style: :compressed
+
+# optionally remove smart quotes
+#kramdown:
+#    smart_quotes: ["apos", "apos", "quot", "quot"]
+
+# Setup
+title:            'Arrvindh Shriraman'
+tagline:          'SFU CS'
+description:      'Arrvindh Shriraman'
+baseurl:          '/~ashriram'
+
+
+#paginate:         5
+#assets:           /public/
+#imageurl:         /public/images/
+#fileurl:          /public/files/
+#cssurl:           /public/css/
+
+# About/contact
+author:
+  name:            'Arrvindh Shriraman'
+  url:             http://www.cs.sfu.ca/~ashriram/
+  email:           ashriram@cs.sfu.ca
+  github:          https://github.com/ashriram
+ 
+#github:
+#  repo:            https://github.com/ashriram/ashriram.github.io
+
+# Custom vars
+version:           1.0.0
+
