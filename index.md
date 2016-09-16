@@ -46,7 +46,7 @@ If you are interested in working with me, before you email me, please read my <a
     </ul>
 </div>
 
-* Hardware accelerators
+* Hardware accelerators 
 * Cache Coherence and Memory Hierarchy
 * Parallelism and Synchronization
 * Energy Efficiency
