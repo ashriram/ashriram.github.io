@@ -8,7 +8,7 @@ relatedpages:
 ---
 
 
-## Postdoctoral Fellows
+### Postdoctoral Fellows
 
 <ul>
 {% for postdoc in site.data.postdocs %}
@@ -18,19 +18,18 @@ relatedpages:
 {% endfor %}
 </ul>
 
-## Current Graduate Students
+### Active
 
 {% include currentstudents.html %}
 
-## Undergraduates
+### Undergraduates
 
 
-## Graduated Students
+### Graduated (<a href="http://www.cs.sfu.ca/~ashriram/theses"> Download student theses... </a>)
 
 {% include graduatedstudents.html %}
 
-
-## Students Supervised
+### Students Supervised
 
 I served as Supervisor on the thesis committee of these graduated students.
 
@@ -38,7 +37,7 @@ I served as Supervisor on the thesis committee of these graduated students.
 
 {% comment %}
 
-## Students Examined
+### Students Examined
 
 I served as Examiner on the thesis committee of these students.
 

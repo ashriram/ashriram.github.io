@@ -28,10 +28,11 @@
             {% capture studentkey %}{{ student.Name }}-PhD{% endcapture %}
             {% assign studentdata = site.data.graduatedstudents[studentkey] %}
             {% if studentdata.url %}
-                <li>{{ student.Name }}. <a href="{{ studentdata.url }}">{{ student.ThesisTitle }}</a>. <span class="smaller">({{ student.StartSemester }} - {{ student.EndSemester }})</span></li>
+                <li>{{ student.Name }}. <a href="{{ studentdata.url }}">{{ student.ThesisTitle }}</a>. <span class="smaller">({{ student.StartSemester }} - {{ student.EndSemester }}). <span class = "alert"> First Job: {{ student.Job }} </span> </span></li>
             {% else %}
-                <li>{{ student.Name }}. {{ student.ThesisTitle }}. <span class="smaller">({{ student.StartSemester }} - {{ student.EndSemester }})</span></li>
+                <li>{{ student.Name }}. {{ student.ThesisTitle }}. <span class="smaller">({{ student.StartSemester }} - {{ student.EndSemester }}). <span class = "alert" > First Job: {{ student.Job }} </span> </span></li>
             {% endif %}
+
             {% assign counter = counter | plus: 1 %}
         {% else %}
             {% break %}
@@ -60,9 +61,9 @@
             {% capture studentkey %}{{ student.Name }}-MSc{% endcapture %}
             {% assign studentdata = site.data.graduatedstudents[studentkey] %}
             {% if studentdata.url %}
-                <li>{{ student.Name }}. <a href="{{ studentdata.url }}">{{ student.ThesisTitle }}</a>. <span class="smaller">( {{ student.StartSemester }} - {{ student.EndSemester }})</span></li>
+                <li>{{ student.Name }}. <a href="{{ studentdata.url }}">{{ student.ThesisTitle }}</a>. <span class="smaller">( {{ student.StartSemester }} - {{ student.EndSemester }}).  <span class = "alert"> First Job: {{ student.Job }} </span> </span></li>
             {% else %}
-                <li>{{ student.Name }}. {{ student.ThesisTitle }}. <span class="smaller">( {{ student.StartSemester }} - {{ student.EndSemester }})</span></li>
+                <li>{{ student.Name }}. {{ student.ThesisTitle }}. <span class="smaller">( {{ student.StartSemester }} - {{ student.EndSemester }}).  <span class = "alert"> First Job: {{ student.Job }} </span> </span></li>
             {% endif %}
             {% assign counter = counter | plus: 1 %}
         {% else %}

@@ -51,7 +51,7 @@ customjs: shortpubs
 
 <h3 id="teaching">Teaching</h3>
 <ul>
-  <li>Fall 2015: <a href="{{ site.baseurl }}/Courses/2016/CS431/">431: Parallel and Distributed Systems</a></li>
+  <li>Spring 2017: <a href="{{ site.baseurl }}/Courses/2017/CS300/">300: Operating Systems</a></li>
 </ul>
 
 <h3> Posts </h3>
