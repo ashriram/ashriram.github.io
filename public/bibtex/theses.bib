@@ -1,6 +1,4 @@
-%% 2015
-
-@phdthesis{kumar-phd-thesis:2013,
+@phdthesis{kumar-phd-thesis:2017,
       author = {Kumar Snehasish},
       title = {Generalized methods for application specific hardware specialization},
     note = {Phd thesis},
@@ -12,6 +10,17 @@ url = {http://summit.sfu.ca/item/17163},
 pdf = {http://summit.sfu.ca/system/files/iritems1/17163/etd9981_SKumar.pdf}
 }
 
+@phdthesis{linda-phd-thesis:2018,
+author = {Lin Dan},
+title = {Multidimensional Parallelization for Streaming Text Processing Applications Based on Parabix Framework},
+note = {Phd thesis},
+school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+year = 2017,
+month = Dec,
+abstract = {Streaming text processing is important for transforming and analyzing the rapidly growing data in modern society. Unfortunately, text processing software written using the sequential byte-at-a-time processing model fails to take full advantage of the resources available on modern processors for many reasons, including significant branch misprediction penalties due to the input-dependent branching structures of text processing applications, cache miss penalties for table-based operations applied per byte of input, and logical complexity that makes it difficult to process more than a single-byte at a time. Common solutions to process text streams that have dependencies from start to end may involve state machine or recursive algorithms, which are generally considered hard to parallelize and hence ill-suited for multicore or manycore processors. However, the Parabix approach to text processing has recently been shown to offer a promising alternative, based on the concept of bitwise data parallelism: a transform representation of text that uses the full width of available processor registers at a density of one bit per input byte. This dissertation investigates the further development of the Parabix framework to incorporate multidimensional parallelization, combining Parabix methods with several different models of multithreading such as task parallelism, data parallelism and pipeline parallelism as well as with GPU-based SIMT processing. A form of data-pipeline parallelism is developed and shown to be beneficial for text-processing applications even with strong sequential state dependencies. Compilers for both pure pipeline parallelism and data-pipeline parallelism are developed and integrated into Parabix framework to provide automated multithreading support for any Parabix applications. Methods for task parallelism and data parallelism are also developed, but need to be customized by the programmer for specific applications. GPU support is added to Parabix framework by translating LLVM IR into PTX, which can be compiled into binary code and run on GPU devices. Programmers can simply choose to use NVPTX driver instead of CPU driver for code that is executed on GPU. Several applications based on Parabix are implemented and tested with different parallelization techniques to analyze the advantages and limits of multidimensional parallelization extensions of Parabix framework. In data-pipeline mode, we are able to achieve 215\% speedup compared with the sequential version on a quad-core machine. The GPU implementation has its limitations but can give up to 310\% speed-up.},
+url = {http://summit.sfu.ca/item/17877},
+pdf = {http://summit.sfu.ca/system/files/iritems1/17877/etd10521_DLin.pdf}
+}
 
 
 @mastersthesis{bhardwaj-msc-thesis:2013,
@@ -73,7 +82,6 @@ pdf = {http://summit.sfu.ca/system/files/iritems1/16827/etd9901_ASharifian.pdf}
 }
 
 
-
 @mastersthesis{vedula-thesis:2016,
 	author = {Vedula, Naveen},
 	title = {Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues},
@@ -81,26 +89,17 @@ pdf = {http://summit.sfu.ca/system/files/iritems1/16827/etd9901_ASharifian.pdf}
 	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
 	year = 2016,
 	month = Dec,
-	abstract = {The data access patterns of modern workloads are
-                  increasingly less uniform which makes it hard to
-                  design a memory hierarchy with rigid design
-                  principles that performs optimally for a wide range
-                  of workloads. This dissertation proposes and
-                  evaluates the benefits of a novel architecture,
-                  called the Amoeba Cache, for the on chip memory
-                  hierarchy which would allow it to dynamically adapt
-                  to the requirements of the application. We propose a
-                  design that can support a variable number of cache
-                  blocks, each of a different granularity. Compared to
-                  a fixed granularity cache, the Amoeba Cache improves
-                  cache utilization to 90\% - 99\% for most
-                  applications, saves miss rate by up to 73\% at the L1
-                  level and up to 88\% at the LLC level, and reduces
-                  miss bandwidth by up to 84\% at the L1 and 92\% at the
-                  LLC. The Amoeba Cache also reduces on-chip memory
-                  hierarchy energy by as much as 36\% and improves
-                  performance by as much as 50\%.},
 url = {http://summit.sfu.ca/item/16882},
 pdf = {http://summit.sfu.ca/system/files/iritems1/16882/etd9896_NVedula.pdf}
 }
 
+@mastersthesis{margerm-thesis:2016,
+	author = {Margerm, Steven},
+	title = {Leveraging Dynamic Task Parallelism in Hardware Accelerators},
+    note = {MSc thesis},
+	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+	year = 2018,
+	month = Jun,
+url = {http://summit.sfu.ca/},
+pdf = {http://summit.sfu.ca/}
+}

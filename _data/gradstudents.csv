@@ -1,15 +1,10 @@
 Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,url
-"Janghorbani, Sepehr",MSc Thesis option,Potential Supervisor (no committee),Fall 2016,,,Declined Offer
-"Margerm, Steven",MSc Thesis option,Senior Supervisor,Fall 2016,,,Active
-"Arab, Ali",MSc Thesis option,Supervisor,Spring 2015,,,Active
+"Margerm, Steven",MSc Thesis option,Senior Supervisor,Fall 2016,Spring 2018,Leveraging dynamic task parallelism in hardware accelerators,Graduated,Phd @ SFU
 "Vedula, Naveen",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues,Graduated,Phd @ SFU
 "Sharifian, Amirali",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Specialized Macro-Instructions for Von-Neumann Accelerators,Graduated,Phd @ SFU
-"Ebrahimipour, Mehrnoosh",MSc Thesis option,Supervisor,Fall 2014,Fall 2016,,Graduated
-"Shavarani, Sayyedhassan",MSc Thesis option,Defence Chair,Fall 2014,Spring 2016,Training Data Annotation for Segmentation Classification in Translation,Graduated
 "Pathy, Jiten",MSc Thesis option,Potential Supervisor (has committee),Fall 2013,,,Active
 "Dwyer, Tyler",PhD,Supervisor,Fall 2013,Fall 2015,,Withdrawn
 "Pathy, Jiten",MSc Thesis option,Senior Supervisor,Fall 2013,,,Active
-"Mehdizadeh Seraj, Ramtin",MSc Thesis option,Defence Chair,Fall 2013,Fall 2015,Paraphrases for Statistical Machine Translation,Graduated
 "Kumar, Snehasish",PhD,Senior Supervisor,Summer 2013,Spring 2017,Generalized methods for application specific hardware specialization,Graduated, Google Platform Research Group
 "Hajinazar, Nastaran",PhD,Senior Supervisor,Summer 2013,,,Active
 "Sharifian, Amirali",PhD,Senior Supervisor,Spring 2017,,,Active
@@ -17,13 +12,11 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Numanagic, Ibrahim",PhD,Supervisor,Summer 2013,Fall 2016,,Graduated
 "Jiang, Jessica",MSc Thesis option,Supervisor,Spring 2012,Spring 2014,A VISUAL APPROACH TO INVESTIGATING SYSTEM BEHAVIOUR OF NUMA SYSTEMS AND JOB SCHEDULING PROCESSES IN HPC CLUSTERS,Graduated
 "Mustard, Craig",PhD,Supervisor,Fall 2011,Fall 2015,,Withdrawn
-"Hull, Benjamin",MSc Course option,Supervisor,Fall 2011,Summer 2014,,Graduated
-"Sarrafi, Iman",MSc Thesis option,SFU Examiner,Fall 2011,Summer 2013,"mrsFAST-ULTRA: A COMPACT, SNP-AWARE MAPPER FOR HIGH PERFORMANCE SEQUENCING APPLICATIONS",Graduated
 "Monajjemi, Valiallah",PhD,Co-senior Supervisor,Fall 2011,Fall 2016,,Graduated
 "Bharadwaj, Arun",MSc Thesis option,Senior Supervisor,Summer 2011,Fall 2013,Managing Wifi Energy In Smartphones By Throttling Network Packets,Graduated, First job: Gumstix Inc.
 "Vinnik, Evgeny",MSc Thesis option,Supervisor,Summer 2011,Fall 2015,,Graduated
 "Kumar, Snehasish",MSc Thesis option,Senior Supervisor,Spring 2011,Spring 2013,Architectural Support For A Variable Granularity Cache Memory System,Graduated,Phd @ SFU
-"Lin, Dan",PhD,Senior Supervisor,Spring 2011,Fall 2017,Multidimensional Parallelization for Streaming Text Processing Applications Based on Parabix Framework,Graduated,Magnitude/Simba 
+"Lin, Dan",PhD,Senior Supervisor,Spring 2011,Fall 2017,Multidimensional Parallelization for Streaming Text Processing Applications Based on Parabix Framework,Graduated,Magnitude/Simba
 "Meng, Xiao",PhD,Supervisor,Spring 2011,,,Active
 "Shea, Ryan",PhD,SFU Examiner,Fall 2010,Spring 2016,Performance And Energy Efficiency Of Virtual Machine Based Clouds,Graduated
 "Choudhary, Kaushik",MSc Thesis option,Defence Chair,Spring 2010,Summer 2012,,Graduated
@@ -42,3 +35,5 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Ismail, Aws",Master of Applied Science,Co-senior Supervisor,Summer 2008,Summer 2011,,Graduated
 "Sankaran, Baskaran",PhD,Defence Chair,Spring 2008,Fall 2013,Improvements in Hierarchical Phrase-based Statistical Machine Translation,Graduated
 "Ghane, Alireza",MSc Thesis option,Supervisor,Fall 2007,Spring 2013,THE EFFECT OF DATA ORDERING ON CPU CACHE PERFORMANCE,Graduated
+"Keramati, Mahsa",MSc Thesis option,Senior Supervisor,Fall 2018,Fall 2020,,Active
+"Rahimi, Navid",MSc Thesis option,Senior Supervisor,Fall 2018,Fall 2020,,Active
