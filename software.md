@@ -8,7 +8,7 @@ menu: true
 
 ### Repositories
 
-* [SFU Banyan on GitHub](https://csil-git2.cs.surrey.sfu.ca/amoeba/)
+* [SFU Banyan on GitHub](https://https://github.com/sfu-arch/)
 * [My GitHub](https://github.com/ashriram)
 
 

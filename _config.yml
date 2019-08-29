@@ -18,7 +18,7 @@ sass:
 title:            'Arrvindh Shriraman'
 tagline:          'SFU CS'
 description:      'Arrvindh Shriraman'
-baseurl:          'http://www.cs.sfu.ca/~ashriram/'
+baseurl:          'https://www.cs.sfu.ca/~ashriram/'
 
 
 #paginate:         5

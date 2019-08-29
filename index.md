@@ -18,6 +18,7 @@ customjs: shortpubs
                 <a href="https://scholar.google.ca/citations?user=ZuBFPTcAAAAJ&hl=en" class="button">Google Scholar</a>
                 <a href="https://github.com/ashriram" class="button">Github</a>
                 <a href="https://ca.linkedin.com/in/ashriram" class="button">Linkedin</a>
+                <a href="https://github.com/sfu-arch" class="button">Group Github</a>
 
 
             </div>
@@ -51,7 +52,7 @@ customjs: shortpubs
 
 <h3 id="teaching">Teaching</h3>
 <ul>
-  <li>Spring 2017: <a href="{{ site.baseurl }}/Courses/2017/CS300/">300: Operating Systems</a></li>
+  <li> <a href="{{ site.baseurl }}/Courses/CS300/">300: Operating Systems</a></li>
 </ul>
 
 <h3> Posts </h3>
@@ -88,7 +89,7 @@ If you are interested in working with me, before you email me, please read my <a
  -->
 
 
-### Active Research  <a href="{{ site.baseurl }}/research">(more ...)</a>
+### Active Research  <a href="{{ site.baseurl }}/research">(more-)</a>
     
 <img src="{{ site.baseurl }}/public/images/research_wordle_black.png" width="50%" /><br>  
 
@@ -138,7 +139,7 @@ If you are interested in working with me, before you email me, please read my <a
 
 {% include software.html param=2 %}
 
-### Service (<a href="{{ site.baseurl }}/service">more &hellip;</a>)
+### Service (<a href="{{ site.baseurl }}/service">more-</a>)
 
 
 * Program committee members, ASPLOS 2017, MICRO 2016, HPCA 2015, 
