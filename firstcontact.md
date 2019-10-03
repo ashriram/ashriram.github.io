@@ -11,7 +11,6 @@ relatedpages:
     url: news
 ---
 
-
 <div class="alert alert-info">
 Although I try my best to respond to all my email, due the large volume I cannot always respond to every email individually. If you do not get a response I hope you have found this page where I try to answer the typical questions you might have about joining or visiting my research lab and admission to graduate studies in computer science at SFU.
 </div>
@@ -24,15 +23,15 @@ Although I try my best to respond to all my email, due the large volume I cannot
 1. If you are in the Greater Vancouver area email me to meet and talk about Systems. You can also show up and attend the [SYNAR](http://synar.cs.sfu.ca) weekly lab meetings. Visitors are welcome.
 
 1. Useful information:
-    * [My research program]({{ site.baseurl }}/research).
-    * The [Systems, Network and Architecture at SFU](http://synar.cs.sfu.ca) web page.
-    * Information about [my previous students]({{ site.baseurl }}/people).
-    * [How to email](http://matt.might.net/articles/how-to-email/) by Matt Might
-    * [Email writing tips](http://www.pgbovine.net/email-tips.htm) by Philip Guo
+   - [My research program]({{ site.baseurl }}/research).
+   - The [Systems, Network and Architecture at SFU](http://synar.cs.sfu.ca) web page.
+   - Information about [my previous students]({{ site.baseurl }}/people).
+   - [How to email](http://matt.might.net/articles/how-to-email/) by Matt Might
+   - [Email writing tips](http://www.pgbovine.net/email-tips.htm) by Philip Guo
 
 ## Prospective MSc and PhD graduate students
 
-If you are considering SFU as a MSc or PhD student in Computer Science, I strongly encourage you to apply. We have an excellent research lab in computational linguistics and natural language processing. We are certainly very competitive with other universities in Canada. 
+If you are considering SFU as a MSc or PhD student in Computer Science, I strongly encourage you to apply. We have an excellent research lab in computational linguistics and natural language processing. We are certainly very competitive with other universities in Canada.
 
 About open lab positions: we usually have at least 1-2 open positions every year for Masters students. Typically we have one open Ph.D. position in our lab per year, and we require a strong background in Systems for a Ph.D. candidate.
 
@@ -48,9 +47,8 @@ Take the undergraduate CMPT 431 course: [CMPT-431: Parallel and Distributed Syst
 
 ## SFU graduate students
 
-If you are already a graduate student at SFU first take the graduate level NLP course: [CMPT 825: Natural Language Processing](http://anoopsarkar.github.io/nlp-class/). 
+If you are already a graduate student at SFU first take the graduate level NLP course: [CMPT 982/800: Computer Architecture]().
 
 ## Prospective postdoctoral fellows
 
 Any currently open postdoc positions will be announced in the [News]({{ site.baseurl }}/news) section.
-
