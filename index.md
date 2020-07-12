@@ -47,7 +47,7 @@ customjs: shortpubs
 
 <h3 id="teaching">Teaching</h3>
 <ul>
-  <li> <a href="{{ site.baseurl }}/Courses/CSARCH/">982/499: Computer Architecture and Machine Learning </a></li>
+  <li> <a href="{{ site.baseurl }}/Courses/CS431/">431: Parallel Systems </a></li>
 </ul>
 
 <h3> Posts </h3>

@@ -1,5 +1,11 @@
 Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,url
-"Margerm, Steven",MSc Thesis option,Senior Supervisor,Fall 2016,Spring 2018,Leveraging dynamic task parallelism in hardware accelerators,Graduated,Phd @ SFU
+"Hakimi, Milad",MSc Thesis option,Senior Supervisor,Fall 2020,,,Active
+"Dabi, Nishit",MSc Thesis option,Senior Supervisor,Fall 2020,,,Active
+"Vahdatniya, Parmida",MSc Thesis option,Senior Supervisor,Summer 2019,,,Active
+"Sedaghati, Ali",MSc Thesis option,Senior Supervisor,Fall 2019,,,Active
+"Bui, Minh",MSc Thesis option,Senior Supervisor,Fall 2019,,,Active
+"Guha, Apala",Postdoc,Senior Supervisor,Spring 2016,Fall 2019,Deep learning paths and traces,Graduated, Startup
+"Margerm, Steven",MSc Thesis option,Senior Supervisor,Fall 2016,Spring 2018,Leveraging dynamic task parallelism in hardware accelerators,Graduated,Barco
 "Vedula, Naveen",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues,Graduated,Phd @ SFU
 "Sharifian, Amirali",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Specialized Macro-Instructions for Von-Neumann Accelerators,Graduated,Phd @ SFU
 "Pathy, Jiten",MSc Thesis option,Potential Supervisor (has committee),Fall 2013,,,Active
@@ -32,8 +38,7 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Molazem Tabrizi, Farid",MSc Thesis option,Defence Chair,Spring 2009,Spring 2011,,Graduation Approved
 "Ding, Yan",MSc Thesis option,Defence Chair,Fall 2008,Spring 2011,,Graduated
 "Blagodurov, Sergey",PhD,SFU Examiner,Fall 2008,Summer 2013,ADDRESSING SHARED RESOURCE CONTENTION IN DATACENTER SERVERS,Graduated
-"Ismail, Aws",Master of Applied Science,Co-senior Supervisor,Summer 2008,Summer 2011,,Graduated
+"Ismail, Aws",Master of Applied Science,Senior Supervisor,Summer 2008,Summer 2011,,Graduated
+"Zhao, Hongzhou",PhD,Senior Supervisor,Summer 2008,Summer 2014,	Application-directed cache coherence design,Graduated,Nvidia Research
 "Sankaran, Baskaran",PhD,Defence Chair,Spring 2008,Fall 2013,Improvements in Hierarchical Phrase-based Statistical Machine Translation,Graduated
 "Ghane, Alireza",MSc Thesis option,Supervisor,Fall 2007,Spring 2013,THE EFFECT OF DATA ORDERING ON CPU CACHE PERFORMANCE,Graduated
-"Keramati, Mahsa",MSc Thesis option,Senior Supervisor,Fall 2018,Fall 2020,,Active
-"Rahimi, Navid",MSc Thesis option,Senior Supervisor,Fall 2018,Fall 2020,,Active
