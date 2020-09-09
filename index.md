@@ -47,7 +47,7 @@ customjs: shortpubs
 
 <h3 id="teaching">Teaching</h3>
 <ul>
-  <li> <a href="{{ site.baseurl }}/Courses/CS431/">431: Parallel Systems </a></li>
+  <li> <a href="{{ site.baseurl }}/Courses/CS295/">295: Intro to Computer Systems </a></li>
 </ul>
 
 <h3> Posts </h3>
@@ -113,7 +113,7 @@ If you are interested in working with me, before you email me, please read my <a
 
 <div class="more">
     <ul class="navigate">
-        <li><a href="{{ site.baseurl }}/publications">All publications</a></li>
+        <li><a href="{{ site.baseurl }}/publications/index.html">All publications</a></li>
     </ul>
 </div>
 
@@ -123,7 +123,7 @@ If you are interested in working with me, before you email me, please read my <a
 
 <div class="more">
     <ul class="navigate">
-        <li><a href="{{ site.baseurl }}/software">All software</a></li>
+        <li><a href="{{ site.baseurl }}/software/index.html">All software</a></li>
     </ul>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: linkedpage
 title: Student Theses
-menu: false
+menu: true
 customjs: thesisbib
 relatedpages:
   - title: "All students and postdocs"

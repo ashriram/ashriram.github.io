@@ -1,3 +1,17 @@
+@phdthesis{sharifian-phd-thesis:2019,
+author= {Amirali Sharifian},
+title = {An Intermediate Representation For Transforming And Optimizing The Microarchitecture Of Application Accelerators},
+note = {Phd thesis},
+school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+year = 2019,
+month = Aug,
+abstract={In recent years, the computing landscape has seen a shift towards specialized accelerators since the scaling of computational capacity is no longer guaranteed for every technology generation. Reconfigurable architectures like FPGAs are promising for accelerator implementation. FPGAs allow implementation of arbitrary logic functions for different classes of applications with better performance per watt over CPUs and GPUs without re-spinning the circuits like fixed-function ASICs. Unfortunately, the software programmer community has stayed away from this technology, primarily because of the abstraction gap exists between software languages and hardware design Hardware description languages (HDLs) are very low-level, and a hardware designer should think about the design in terms of low-level building blocks such as gates and registers. The alternative to HDLs is High-level synthesis (HLS) tools. HLS frameworks synthesize hardware from a high-level description of an algorithm in the form of untimed mathematical expressions and nested, pipeline and parallel loops in software languages. The primary limitation of HLS is that the functionality and microarchitecture are conflated together in a single language. As a result, making changes to the accelerator design requires code restructuring and microarchitecture optimizations tied by program correctness. In this thesis we propose two new abstractions to decouple functionality from microarchitecture. The first abstraction is a hierarchical intermediate representation for describing parameterized accelerator microarchitecture, targeting reconfigurable architects. In this abstraction, we represent the accelerator as a concurrent structural graph in which components roughly correspond to microarchitecture level hardware blocks. We describe the methods we used to lower the entire application graph into a parameterized intermediate hardware abstraction, µ-IR.
+We describe the implementation of this intermediate abstraction and an associated pass framework, µ-OPT. We then discuss some of the compiler optimizations that µ-IR enables, including timing, spatial, and higher-order. The final system is a compiler stack that can take a high-level program as input and translate it into optimized, synthesizable hardware design. The second abstraction is a sequence of instructions that convey the producer-consumer locality between dependent instructions. We show that this new abstraction adapts to different acceleration behaviors by varying the length and the types of fused instructions.
+},
+url={},
+pdf={}
+}
+
 @phdthesis{kumar-phd-thesis:2017,
       author = {Kumar Snehasish},
       title = {Generalized methods for application specific hardware specialization},
