@@ -1,64 +1,74 @@
+@phdthesis{hojabr2021high,
+  title  = {High-Performance Interconnection Networks for Neural Network Accelerators},
+  author = {Hojabr, Reza},
+  year   = {2021},
+  month  = {February},
+  school = {Visiting Student, Simon Fraser University and School of ECE, University of Tehran}
+}
+# Primary supervisor: Dr. Ahmad Khonsari
+
+
 @phdthesis{sharifian-phd-thesis:2019,
-author= {Amirali Sharifian},
-title = {An Intermediate Representation For Transforming And Optimizing The Microarchitecture Of Application Accelerators},
-note = {Phd thesis},
-school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-year = 2019,
-month = Aug,
-abstract={In recent years, the computing landscape has seen a shift towards specialized accelerators since the scaling of computational capacity is no longer guaranteed for every technology generation. Reconfigurable architectures like FPGAs are promising for accelerator implementation. FPGAs allow implementation of arbitrary logic functions for different classes of applications with better performance per watt over CPUs and GPUs without re-spinning the circuits like fixed-function ASICs. Unfortunately, the software programmer community has stayed away from this technology, primarily because of the abstraction gap exists between software languages and hardware design Hardware description languages (HDLs) are very low-level, and a hardware designer should think about the design in terms of low-level building blocks such as gates and registers. The alternative to HDLs is High-level synthesis (HLS) tools. HLS frameworks synthesize hardware from a high-level description of an algorithm in the form of untimed mathematical expressions and nested, pipeline and parallel loops in software languages. The primary limitation of HLS is that the functionality and microarchitecture are conflated together in a single language. As a result, making changes to the accelerator design requires code restructuring and microarchitecture optimizations tied by program correctness. In this thesis we propose two new abstractions to decouple functionality from microarchitecture. The first abstraction is a hierarchical intermediate representation for describing parameterized accelerator microarchitecture, targeting reconfigurable architects. In this abstraction, we represent the accelerator as a concurrent structural graph in which components roughly correspond to microarchitecture level hardware blocks. We describe the methods we used to lower the entire application graph into a parameterized intermediate hardware abstraction, µ-IR.
+  author   = {Amirali Sharifian},
+  title    = {An Intermediate Representation For Transforming And Optimizing The Microarchitecture Of Application Accelerators},
+  note     = {Phd thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2019,
+  month    = Aug,
+  abstract = {In recent years, the computing landscape has seen a shift towards specialized accelerators since the scaling of computational capacity is no longer guaranteed for every technology generation. Reconfigurable architectures like FPGAs are promising for accelerator implementation. FPGAs allow implementation of arbitrary logic functions for different classes of applications with better performance per watt over CPUs and GPUs without re-spinning the circuits like fixed-function ASICs. Unfortunately, the software programmer community has stayed away from this technology, primarily because of the abstraction gap exists between software languages and hardware design Hardware description languages (HDLs) are very low-level, and a hardware designer should think about the design in terms of low-level building blocks such as gates and registers. The alternative to HDLs is High-level synthesis (HLS) tools. HLS frameworks synthesize hardware from a high-level description of an algorithm in the form of untimed mathematical expressions and nested, pipeline and parallel loops in software languages. The primary limitation of HLS is that the functionality and microarchitecture are conflated together in a single language. As a result, making changes to the accelerator design requires code restructuring and microarchitecture optimizations tied by program correctness. In this thesis we propose two new abstractions to decouple functionality from microarchitecture. The first abstraction is a hierarchical intermediate representation for describing parameterized accelerator microarchitecture, targeting reconfigurable architects. In this abstraction, we represent the accelerator as a concurrent structural graph in which components roughly correspond to microarchitecture level hardware blocks. We describe the methods we used to lower the entire application graph into a parameterized intermediate hardware abstraction, µ-IR.
 We describe the implementation of this intermediate abstraction and an associated pass framework, µ-OPT. We then discuss some of the compiler optimizations that µ-IR enables, including timing, spatial, and higher-order. The final system is a compiler stack that can take a high-level program as input and translate it into optimized, synthesizable hardware design. The second abstraction is a sequence of instructions that convey the producer-consumer locality between dependent instructions. We show that this new abstraction adapts to different acceleration behaviors by varying the length and the types of fused instructions.
 },
-url={},
-pdf={}
+  url      = {https://summit.sfu.ca/item/20613},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/20613/etd21042.pdf}
 }
 
 @phdthesis{kumar-phd-thesis:2017,
-      author = {Kumar Snehasish},
-      title = {Generalized methods for application specific hardware specialization},
-    note = {Phd thesis},
-      school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-      year = 2017,
-      month = Dec,
-      abstract = {Since the invention of the microprocessor in 1971, the computational capacity of the microprocessor has scaled over 1000x with Moore and Dennard scaling. Dennard scaling ended with a rapid increase in leakage power 30 years after it was proposed. This ushered in the era of multiprocessing where additional transistors afforded by Moore's scaling were put to use. The breakdown of Moore's law indicates the start of a new era for computer architects. With the scaling of computational capacity no longer guaranteed every generation, application specific hardware specialization is an attractive alternative to sustain scaling trends. Hardware specialization broadly refers to the identification and optimization of recurrent patterns, dynamic and static, in software via integrated circuitry. This dissertation describes a two-pronged approach to architectural specialization.First, a top down approach uses program analysis to determine code regions amenable for specialization. We have implemented a prototype compiler tool-chain to automatically identify, analyze, extract and grow code segments which are amenable to specialization in a methodical manner. Second, a bottom up approach evaluated particular hardware enhancements to enable the efficient data movement of specialized regions. We have devised and evaluated coherence protocols and flexible caching mechanisms to reduce the overhead of data movement within specialized regions. The former workload centric approach analyses programs at the path granularity. We enumerate static and dynamic program characteristics accurately with low overhead. Our observations show that analysis of amenability for specialization along the path granularity yield different conclusions than prior work. We show that analyses at coarser granularities tend to smear program characteristics critical to specialization. We analyse the potential for performance and energy improvement via specialization at the path granularity. We develop mechanisms to extract and merge amenable paths into segments called Braids. Braids are constructed from the observation that oft-executed program paths have the same start and end point. This allows for increased offload opportunity while retaining the same interface as path granularity specialization. To address the challenges of data movement, the latter micro-architecture first approach, proposes a specialized coherence protocol tailored for accelerators and an adaptive granularity caching mechanism. The hybrid coherence protocol localizes data movement to a specialized accelerator-only tile reducing energy consumption and improving performance. Modern workloads have varied program characteristics where fixed granularity caching often introduces waste in the cache hierarchy. Frequently cache blocks are evicted before all words in the fetched line are touched by the processor. We propose a variable granularity caching mechanism which reduces energy consumption while improving performance via better utilization of the available storage space.},
-url = {http://summit.sfu.ca/item/17163},
-pdf = {http://summit.sfu.ca/system/files/iritems1/17163/etd9981_SKumar.pdf}
+  author   = {Kumar Snehasish},
+  title    = {Generalized methods for application specific hardware specialization},
+  note     = {Phd thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2017,
+  month    = Dec,
+  abstract = {Since the invention of the microprocessor in 1971, the computational capacity of the microprocessor has scaled over 1000x with Moore and Dennard scaling. Dennard scaling ended with a rapid increase in leakage power 30 years after it was proposed. This ushered in the era of multiprocessing where additional transistors afforded by Moore's scaling were put to use. The breakdown of Moore's law indicates the start of a new era for computer architects. With the scaling of computational capacity no longer guaranteed every generation, application specific hardware specialization is an attractive alternative to sustain scaling trends. Hardware specialization broadly refers to the identification and optimization of recurrent patterns, dynamic and static, in software via integrated circuitry. This dissertation describes a two-pronged approach to architectural specialization.First, a top down approach uses program analysis to determine code regions amenable for specialization. We have implemented a prototype compiler tool-chain to automatically identify, analyze, extract and grow code segments which are amenable to specialization in a methodical manner. Second, a bottom up approach evaluated particular hardware enhancements to enable the efficient data movement of specialized regions. We have devised and evaluated coherence protocols and flexible caching mechanisms to reduce the overhead of data movement within specialized regions. The former workload centric approach analyses programs at the path granularity. We enumerate static and dynamic program characteristics accurately with low overhead. Our observations show that analysis of amenability for specialization along the path granularity yield different conclusions than prior work. We show that analyses at coarser granularities tend to smear program characteristics critical to specialization. We analyse the potential for performance and energy improvement via specialization at the path granularity. We develop mechanisms to extract and merge amenable paths into segments called Braids. Braids are constructed from the observation that oft-executed program paths have the same start and end point. This allows for increased offload opportunity while retaining the same interface as path granularity specialization. To address the challenges of data movement, the latter micro-architecture first approach, proposes a specialized coherence protocol tailored for accelerators and an adaptive granularity caching mechanism. The hybrid coherence protocol localizes data movement to a specialized accelerator-only tile reducing energy consumption and improving performance. Modern workloads have varied program characteristics where fixed granularity caching often introduces waste in the cache hierarchy. Frequently cache blocks are evicted before all words in the fetched line are touched by the processor. We propose a variable granularity caching mechanism which reduces energy consumption while improving performance via better utilization of the available storage space.},
+  url      = {http://summit.sfu.ca/item/17163},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/17163/etd9981_SKumar.pdf}
 }
 
 @phdthesis{linda-phd-thesis:2018,
-author = {Lin Dan},
-title = {Multidimensional Parallelization for Streaming Text Processing Applications Based on Parabix Framework},
-note = {Phd thesis},
-school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-year = 2017,
-month = Dec,
-abstract = {Streaming text processing is important for transforming and analyzing the rapidly growing data in modern society. Unfortunately, text processing software written using the sequential byte-at-a-time processing model fails to take full advantage of the resources available on modern processors for many reasons, including significant branch misprediction penalties due to the input-dependent branching structures of text processing applications, cache miss penalties for table-based operations applied per byte of input, and logical complexity that makes it difficult to process more than a single-byte at a time. Common solutions to process text streams that have dependencies from start to end may involve state machine or recursive algorithms, which are generally considered hard to parallelize and hence ill-suited for multicore or manycore processors. However, the Parabix approach to text processing has recently been shown to offer a promising alternative, based on the concept of bitwise data parallelism: a transform representation of text that uses the full width of available processor registers at a density of one bit per input byte. This dissertation investigates the further development of the Parabix framework to incorporate multidimensional parallelization, combining Parabix methods with several different models of multithreading such as task parallelism, data parallelism and pipeline parallelism as well as with GPU-based SIMT processing. A form of data-pipeline parallelism is developed and shown to be beneficial for text-processing applications even with strong sequential state dependencies. Compilers for both pure pipeline parallelism and data-pipeline parallelism are developed and integrated into Parabix framework to provide automated multithreading support for any Parabix applications. Methods for task parallelism and data parallelism are also developed, but need to be customized by the programmer for specific applications. GPU support is added to Parabix framework by translating LLVM IR into PTX, which can be compiled into binary code and run on GPU devices. Programmers can simply choose to use NVPTX driver instead of CPU driver for code that is executed on GPU. Several applications based on Parabix are implemented and tested with different parallelization techniques to analyze the advantages and limits of multidimensional parallelization extensions of Parabix framework. In data-pipeline mode, we are able to achieve 215\% speedup compared with the sequential version on a quad-core machine. The GPU implementation has its limitations but can give up to 310\% speed-up.},
-url = {http://summit.sfu.ca/item/17877},
-pdf = {http://summit.sfu.ca/system/files/iritems1/17877/etd10521_DLin.pdf}
+  author   = {Lin Dan},
+  title    = {Multidimensional Parallelization for Streaming Text Processing Applications Based on Parabix Framework},
+  note     = {Phd thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2017,
+  month    = Dec,
+  abstract = {Streaming text processing is important for transforming and analyzing the rapidly growing data in modern society. Unfortunately, text processing software written using the sequential byte-at-a-time processing model fails to take full advantage of the resources available on modern processors for many reasons, including significant branch misprediction penalties due to the input-dependent branching structures of text processing applications, cache miss penalties for table-based operations applied per byte of input, and logical complexity that makes it difficult to process more than a single-byte at a time. Common solutions to process text streams that have dependencies from start to end may involve state machine or recursive algorithms, which are generally considered hard to parallelize and hence ill-suited for multicore or manycore processors. However, the Parabix approach to text processing has recently been shown to offer a promising alternative, based on the concept of bitwise data parallelism: a transform representation of text that uses the full width of available processor registers at a density of one bit per input byte. This dissertation investigates the further development of the Parabix framework to incorporate multidimensional parallelization, combining Parabix methods with several different models of multithreading such as task parallelism, data parallelism and pipeline parallelism as well as with GPU-based SIMT processing. A form of data-pipeline parallelism is developed and shown to be beneficial for text-processing applications even with strong sequential state dependencies. Compilers for both pure pipeline parallelism and data-pipeline parallelism are developed and integrated into Parabix framework to provide automated multithreading support for any Parabix applications. Methods for task parallelism and data parallelism are also developed, but need to be customized by the programmer for specific applications. GPU support is added to Parabix framework by translating LLVM IR into PTX, which can be compiled into binary code and run on GPU devices. Programmers can simply choose to use NVPTX driver instead of CPU driver for code that is executed on GPU. Several applications based on Parabix are implemented and tested with different parallelization techniques to analyze the advantages and limits of multidimensional parallelization extensions of Parabix framework. In data-pipeline mode, we are able to achieve 215\% speedup compared with the sequential version on a quad-core machine. The GPU implementation has its limitations but can give up to 310\% speed-up.},
+  url      = {http://summit.sfu.ca/item/17877},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/17877/etd10521_DLin.pdf}
 }
 
 
 @mastersthesis{bhardwaj-msc-thesis:2013,
-	author = {Bhardwaj Arun},
-	title = {Managing wifi energy in smartphones by throttling network packets},
-    note = {MSc thesis},
-	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-	year = 2013,
-	month = Apr,
-	abstract = {Smartphone applications that access the network can quickly drain a phone's energy. The WiFi radio consumes up to 25\%-30\% of the system’s total power, which could be twice as much as the CPU. The wireless radio supports two modes of operation, a high performance active mode and a low power mode. Determining when to transition between the two modes is particularly challenging since applications demonstrate diverse network behavior. We show that even when actively using the network, applications provide short idle windows that can be exploited (tens of milliseconds). Current smartphones seek to exploit these windows by transitioning after a fixed timeout during an inactive period. Selecting the right timeout is challenging: If it is too long, the device may waste energy but if it is too short, it may significantly delay the incoming data (buffered at the access point). In this paper we attempt to answer the following questions: how difficult is it to configure the timeout that determines when the WiFi radio goes into the power-saving mode? Is there a time-out that works well for most applications? How significant are the effects on energy consumption and packet latency if the timeout is not configured optimally? How do we dynamically tune the PSM timeout based on the applications’ network activity? How do we modify the application traffic to maximize the WiFi radio sleep time without affecting the user experience?},
-url = {http://summit.sfu.ca/item/14245},
-pdf = {http://summit.sfu.ca/system/files/iritems1/14245/etd8377_ABharadwaj.pdf}
+  author   = {Bhardwaj Arun},
+  title    = {Managing wifi energy in smartphones by throttling network packets},
+  note     = {MSc thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2013,
+  month    = Apr,
+  abstract = {Smartphone applications that access the network can quickly drain a phone's energy. The WiFi radio consumes up to 25\%-30\% of the system’s total power, which could be twice as much as the CPU. The wireless radio supports two modes of operation, a high performance active mode and a low power mode. Determining when to transition between the two modes is particularly challenging since applications demonstrate diverse network behavior. We show that even when actively using the network, applications provide short idle windows that can be exploited (tens of milliseconds). Current smartphones seek to exploit these windows by transitioning after a fixed timeout during an inactive period. Selecting the right timeout is challenging: If it is too long, the device may waste energy but if it is too short, it may significantly delay the incoming data (buffered at the access point). In this paper we attempt to answer the following questions: how difficult is it to configure the timeout that determines when the WiFi radio goes into the power-saving mode? Is there a time-out that works well for most applications? How significant are the effects on energy consumption and packet latency if the timeout is not configured optimally? How do we dynamically tune the PSM timeout based on the applications’ network activity? How do we modify the application traffic to maximize the WiFi radio sleep time without affecting the user experience?},
+  url      = {http://summit.sfu.ca/item/14245},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/14245/etd8377_ABharadwaj.pdf}
 }
 
 
 
 @mastersthesis{kumar-msc-thesis:2013,
-	author = {Kumar, Snehasish},
-	title = {Architectural support for a variable granularity cache memory system},
-    note = {MSc thesis},
-	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-	year = 2013,
-	month = Apr,
-	abstract = {The data access patterns of modern workloads are
+  author   = {Kumar, Snehasish},
+  title    = {Architectural support for a variable granularity cache memory system},
+  note     = {MSc thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2013,
+  month    = Apr,
+  abstract = {The data access patterns of modern workloads are
                   increasingly less uniform which makes it hard to
                   design a memory hierarchy with rigid design
                   principles that performs optimally for a wide range
@@ -77,43 +87,43 @@ pdf = {http://summit.sfu.ca/system/files/iritems1/14245/etd8377_ABharadwaj.pdf}
                   LLC. The Amoeba Cache also reduces on-chip memory
                   hierarchy energy by as much as 36\% and improves
                   performance by as much as 50\%.},
-url = {http://summit.sfu.ca/item/12771},
-pdf = {http://summit.sfu.ca/system/files/iritems1/12771/etd7774_SKumar.pdf}
+  url      = {http://summit.sfu.ca/item/12771},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/12771/etd7774_SKumar.pdf}
 }
 
 
 
 @mastersthesis{Sharifian-msc-thesis:2016,
-	author = {Sharifian, Amirali},
-	title = {Specialized Macro-Instructions for Von-Neumann Accelerators},
-    note = {MSc thesis},
-	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-	year = 2016,
-	month = Nov,
-	abstract = {In the last few decades, Von-Neumann super-scalar processors have been the superior approach for improving general purpose processing and hardware specialization was used as a complementary approach. However, the imminent end of Moore's law indicates voltage scaling and per-transistor switching power can not scale down with the same peace as what Moore's law predicts. As a result, there is a new interest in hardware specialization to improve performance, power and energy efficiency on specific tasks.This dissertation proposes a Von-Neumann based accelerator, Chainsaw, and demonstrates that many of the fundamental overheads (e.g., fetch-decode) can be amortized by adopting the appropriate instruction abstraction. We have developed a complete LLVM-based compiler prototype and simulation infrastructure and demonstrated that an 8-lane Chainsaw is within 73\% of the performance of an ideal dataflow architecture while reducing the energy consumption by 45\% compared to a 4-way out of order processor.},
-url = {http://summit.sfu.ca/item/16827},
-pdf = {http://summit.sfu.ca/system/files/iritems1/16827/etd9901_ASharifian.pdf}
+  author   = {Sharifian, Amirali},
+  title    = {Specialized Macro-Instructions for Von-Neumann Accelerators},
+  note     = {MSc thesis},
+  school   = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year     = 2016,
+  month    = Nov,
+  abstract = {In the last few decades, Von-Neumann super-scalar processors have been the superior approach for improving general purpose processing and hardware specialization was used as a complementary approach. However, the imminent end of Moore's law indicates voltage scaling and per-transistor switching power can not scale down with the same peace as what Moore's law predicts. As a result, there is a new interest in hardware specialization to improve performance, power and energy efficiency on specific tasks.This dissertation proposes a Von-Neumann based accelerator, Chainsaw, and demonstrates that many of the fundamental overheads (e.g., fetch-decode) can be amortized by adopting the appropriate instruction abstraction. We have developed a complete LLVM-based compiler prototype and simulation infrastructure and demonstrated that an 8-lane Chainsaw is within 73\% of the performance of an ideal dataflow architecture while reducing the energy consumption by 45\% compared to a 4-way out of order processor.},
+  url      = {http://summit.sfu.ca/item/16827},
+  pdf      = {http://summit.sfu.ca/system/files/iritems1/16827/etd9901_ASharifian.pdf}
 }
 
 
 @mastersthesis{vedula-thesis:2016,
-	author = {Vedula, Naveen},
-	title = {Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues},
-    note = {MSc thesis},
-	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-	year = 2016,
-	month = Dec,
-url = {http://summit.sfu.ca/item/16882},
-pdf = {http://summit.sfu.ca/system/files/iritems1/16882/etd9896_NVedula.pdf}
+  author = {Vedula, Naveen},
+  title  = {Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues},
+  note   = {MSc thesis},
+  school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year   = 2016,
+  month  = Dec,
+  url    = {http://summit.sfu.ca/item/16882},
+  pdf    = {http://summit.sfu.ca/system/files/iritems1/16882/etd9896_NVedula.pdf}
 }
 
-@mastersthesis{margerm-thesis:2016,
-	author = {Margerm, Steven},
-	title = {Leveraging Dynamic Task Parallelism in Hardware Accelerators},
-    note = {MSc thesis},
-	school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
-	year = 2018,
-	month = Jun,
-url = {http://summit.sfu.ca/},
-pdf = {http://summit.sfu.ca/}
+@mastersthesis{margerm-thesis:2018,
+  author = {Margerm, Steven},
+  title  = {Leveraging Dynamic Task Parallelism in Hardware Accelerators},
+  note   = {MSc thesis},
+  school = {School of Computing Science, Faculty of Applied Sciences, Simon Fraser University},
+  year   = 2018,
+  month  = Jun,
+  url    = {https://summit.sfu.ca/item/19099},
+  pdf    = {http://summit.sfu.ca/system/files/iritems1/19099/etd10761.pdf}
 }

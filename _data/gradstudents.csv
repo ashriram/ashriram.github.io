@@ -5,6 +5,7 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Sedaghati, Ali",MSc Thesis option,Senior Supervisor,Fall 2019,,,Active
 "Bui, Minh",MSc Thesis option,Senior Supervisor,Fall 2019,,,Active
 "Guha, Apala",Postdoc,Senior Supervisor,Spring 2016,Fall 2019,Deep learning paths and traces,Graduated, Startup
+"Reza Hojabr",PhD,Supervisor,Fall 2019,Spring 2021,High-Performance Interconnection Networks for Neural Network Accelerators,Graduated,Untether AI
 "Margerm, Steven",MSc Thesis option,Senior Supervisor,Fall 2016,Spring 2018,Leveraging dynamic task parallelism in hardware accelerators,Graduated,Barco
 "Vedula, Naveen",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Leveraging Compiler Alias Analysis To Free Accelerators from Load-Store Queues,Graduated,Phd @ SFU
 "Sharifian, Amirali",MSc Thesis option,Senior Supervisor,Fall 2014,Fall 2016,Specialized Macro-Instructions for Von-Neumann Accelerators,Graduated,Phd @ SFU
@@ -13,7 +14,7 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Pathy, Jiten",MSc Thesis option,Senior Supervisor,Fall 2013,,,Active
 "Kumar, Snehasish",PhD,Senior Supervisor,Summer 2013,Spring 2017,Generalized methods for application specific hardware specialization,Graduated, Google Platform Research Group
 "Hajinazar, Nastaran",PhD,Senior Supervisor,Summer 2013,,,Active
-"Sharifian, Amirali",PhD,Senior Supervisor,Spring 2017,Summer 2020,An Intermediate Representation For Transforming And Optimizing The Microarchitecture Of Application Accelerators,Graduated,Untether AI
+"Sharifian, Amirali",PhD,Senior Supervisor,Spring 2017,Summer 2020,An Intermediate Representation For Transforming And Optimizing The Microarchitecture Of Application Accelerators,Graduated,Cerebras
 "Vedula, Naveen",PhD,Senior Supervisor,Spring 2017,,,Active
 "Numanagic, Ibrahim",PhD,Supervisor,Summer 2013,Fall 2016,,Graduated
 "Jiang, Jessica",MSc Thesis option,Supervisor,Spring 2012,Spring 2014,A VISUAL APPROACH TO INVESTIGATING SYSTEM BEHAVIOUR OF NUMA SYSTEMS AND JOB SCHEDULING PROCESSES IN HPC CLUSTERS,Graduated
@@ -27,15 +28,10 @@ Name,Program,YourRole,StartSemester,EndSemester,ThesisTitle,CurrentStatus,Job,ur
 "Shea, Ryan",PhD,SFU Examiner,Fall 2010,Spring 2016,Performance And Energy Efficiency Of Virtual Machine Based Clouds,Graduated
 "Choudhary, Kaushik",MSc Thesis option,Defence Chair,Spring 2010,Summer 2012,,Graduated
 "Dashti, Mohammad",MSc Thesis option,Supervisor,Spring 2010,Fall 2012,,Graduated
-"Roth, Yong",MSc Thesis option,SFU Examiner,Spring 2010,Fall 2012,,Graduated
-"Dwyer, Tyler",MSc Thesis option,Defence Chair,Fall 2009,Fall 2012,,Graduated
-"Harvey, Ralph",MSc Thesis option,Defence Chair,Fall 2009,Fall 2011,,Graduated
-"Huang, Hua",MSc Thesis option,SFU Examiner,Fall 2009,Fall 2011,,Graduated
 "Mottishaw, Shane",MSc Thesis option,SFU Examiner,Fall 2009,Summer 2011,,Graduated
 "Liu, Yuan",MSc Thesis option,SFU Examiner,Fall 2009,Spring 2013,EXPLICIT MEMORY MANAGEMENT FOR MESH TRAVERSAL,Graduated
 "Medforth, Nigel",MSc Thesis option,SFU Examiner,Fall 2009,Summer 2013,icXML: Accelerating Xerces-C 3.1.1 Using the Parabix Framework,Graduated
 "Matthews, Eric",Master of Applied Science,SFU Examiner,Summer 2009,Spring 2012,A Framework for Investigating Workload Interactions on Multicore Systems,Graduated
-"Molazem Tabrizi, Farid",MSc Thesis option,Defence Chair,Spring 2009,Spring 2011,,Graduation Approved
 "Ding, Yan",MSc Thesis option,Defence Chair,Fall 2008,Spring 2011,,Graduated
 "Blagodurov, Sergey",PhD,SFU Examiner,Fall 2008,Summer 2013,ADDRESSING SHARED RESOURCE CONTENTION IN DATACENTER SERVERS,Graduated
 "Ismail, Aws",Master of Applied Science,Senior Supervisor,Summer 2008,Summer 2011,,Graduated
